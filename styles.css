@@ -1,9 +1,11 @@
+/* Page layout and background */
 body {
   height: 100vh;
   background-color: #f0f0f0;
   text-align: center;
 }
 
+/* Centered card for the settings panel */
 .settings-card {
   max-width: 250px;
   padding: 20px;
@@ -13,16 +15,19 @@ body {
   text-align: left;
 }
 
+/* Title styling */
 h1 {
   text-align: center;
 }
 
+/* Each setting row is displayed as a block */
 label {
   display: block;
   cursor: pointer;
   margin: 8px auto;
 }
 
+/* Custom checkbox design */
 input[type='checkbox'] {
   width: 20px;
   height: 20px;
@@ -36,11 +41,13 @@ input[type='checkbox'] {
   margin-right: 15px;
 }
 
+/* Checked state for selected options */
 input[type='checkbox']:checked {
   background-color: #f1be32;
   border-color: #e2a60d;
 }
 
+/* Add the checkmark when an option is selected */
 input[type="checkbox"]:checked::after {
   content: "✓";
   display: block;
